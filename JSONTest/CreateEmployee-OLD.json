@@ -1,0 +1,35 @@
+{
+  "Test-Create": [
+    {
+      "Name": "Jon Showboat",
+      "Salary": "1000",
+      "age": "62"
+    },
+    {
+      "Name": "Karen Showboat",
+      "Salary": "2000",
+      "age": "60"
+    }
+  ],
+  "Test-Delete": [
+    {
+      "UserId": 3,
+      "CustomerId": 1063
+    },
+    {
+      "UserId": 4,
+      "CustomerId": 1064
+    }
+  ],
+  "Test-Get": [
+    {
+      "EndPoint": "/api/v1/employee",
+      "EmployeeId": "25965"
+    },
+    {
+      "EndPoint": "/api/v1/employee",
+      "EmployeeId": "25965"
+    }
+  ]
+
+}
